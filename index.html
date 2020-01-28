@@ -1,7 +1,26 @@
 <!DOCTYPE html>
 <html>
-<title>Andrew Platner's Pages</title>
+    <head>
+        <title>Andrew Platner's Pages</title>
+        
+    </head>
 <body>
-<p>More coming soon - until then, please check my projects on <a href="http://github.com/APlatner>Github</a>!</p>
+    <script>
+        function learnMore() {
+            var x = document.getElementById("learnMore");
+            if (x.style.display === "none") {
+            x.style.display = "block";
+            } else {
+            x.style.display = "none";
+            }
+        } 
+    </script>
+
+<p>More coming soon - until then, please check my projects on <a href="http://github.com/APlatner">Github</a> or
+    <button onclick="learnMore()">click here</button> to learn more about me</p>
+    <div id="learnMore" style="display: none;">
+        I don't know what you were expecting, nincs itt semmi. 
+    </div>
 </body>
+
 </html>
