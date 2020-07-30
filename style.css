@@ -2,6 +2,9 @@ head {
   background-color: gray;
 }
 
+h1 {
+  background-color: gray;
+}
 .container {
   display: flex;
 }
