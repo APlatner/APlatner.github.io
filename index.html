@@ -3,25 +3,26 @@
     <head>
         <link rel="stylesheet" href="styles.css">
         <title>Andrew Platner's Pages</title>
-        <h1>Welcome</h1>
+        
     </head>
-<body>
-    <script>
-        function learnMore() {
-            var x = document.getElementById("learnMore");
-            if (x.style.display === "none") {
-            x.style.display = "block";
-            } else {
-            x.style.display = "none";
-            }
-        } 
-    </script>
+    <body>
+        <h1>Welcome</h1>
+        <script>
+            function learnMore() {
+                var x = document.getElementById("learnMore");
+                if (x.style.display === "none") {
+                x.style.display = "block";
+                } else {
+                x.style.display = "none";
+                }
+            } 
+        </script>
 
-<p>More coming soon - until then, please check my projects on <a href="http://github.com/APlatner">Github</a> or
-    <button onclick="learnMore()">click here</button> to learn more about me</p>
-    <div id="learnMore" style="display: none;">
-        There's nothing here really. This is just a proof of concept
-    </div>
-</body>
+    <p>More coming soon - until then, please check my projects on <a href="http://github.com/APlatner">Github</a> or
+        <button onclick="learnMore()">click here</button> to learn more about me</p>
+        <div id="learnMore" style="display: none;">
+            There's nothing here really. This is just a proof of concept
+        </div>
+    </body>
 
 </html>
