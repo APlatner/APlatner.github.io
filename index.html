@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="style.css">
         <title>Andrew Platner's Pages</title>
         
     </head>
     <body>
-        <h1>Welcome</h1>
+        <h1>
+            <div class="flex-container">
+                <div style="flex-grow: 10">/Welcome </div>
+                <div class="button" onclick="projects()">/projects</div>
+                <div class="button" onclick="aboutMe()">/about me</div>
+            </div>
+        </h1>
         <script>
-            function learnMore() {
-                var x = document.getElementById("learnMore");
+            function aboutMe() {
+                var x = document.getElementById("aboutMe");
                 if (x.style.display === "none") {
                 x.style.display = "block";
                 } else {
@@ -18,11 +24,11 @@
             } 
         </script>
 
-    <p>More coming soon - until then, please check my projects on <a href="http://github.com/APlatner">Github</a> or
-        <button onclick="learnMore()">click here</button> to learn more about me</p>
-        <div id="learnMore" style="display: none;">
-            There's nothing here really. This is just a proof of concept
-        </div>
+    <p>More coming soon - until then, please check my projects on <a href="http://github.com/APlatner">Github</a></p>
+    <div class="format" id="aboutMe" style="display: none;">
+        There's nothing here really. This is just a proof of concept
+    </div>
+        
     </body>
 
 </html>

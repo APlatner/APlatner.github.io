@@ -1,10 +1,50 @@
-head {
-  background-color: gray;
+body {
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 15px;
+  background-color: #222222;
+  color: #00aa00;
 }
 
 h1 {
-  background-color: gray;
+  border-style: dashed none dashed none;
+  border-width: 1px;
+  padding: 5px;
+  margin: 5px;
 }
-.container {
+
+p {
+  padding: 5px;
+  margin: 5px;
+}
+
+a {
+  color: #00aa00;
+}
+
+a:hover {
+  color: #00cc00;
+}
+
+.button {
+  font-size: 20px;
+  padding: 5px;
+  background-color: #222222;
+  color: #00aa00;
+  border-style: none none none none;
+  outline: none;
+}
+
+.button:hover {
+  color: #00cc00;
+}
+
+.flex-container {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.format {
+  padding: 5px;
+  margin: 5px;
 }
