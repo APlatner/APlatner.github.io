@@ -26,9 +26,10 @@ a:hover {
 }
 
 .button {
+  width: max-content;
   font-size: 20px;
   padding: 5px;
-  background-color: #222222;
+  background-color: #002222;
   color: #00aa00;
   border-style: none none none none;
   outline: none;
@@ -36,6 +37,7 @@ a:hover {
 
 .button:hover {
   color: #00cc00;
+  cursor: pointer;
 }
 
 .flex-container {
