@@ -19,7 +19,7 @@ function aboutMe() {
 }
 
 function games() {
-    if (document.getElementById("games").style.display === "none") {
+    if (document.getElementById("games_0").style.display === "none") {
         document.getElementById("games_0").style.display = "block";
         document.getElementById("games_1").style.display = "block";
     } else {
