@@ -20,11 +20,11 @@ function aboutMe() {
 
 function games() {
     if (document.getElementById("games").style.display === "none") {
-        document.getElementById("games")[0].style.display = "block";
-        document.getElementById("games")[1].style.display = "block";
+        document.getElementById("games_0").style.display = "block";
+        document.getElementById("games_1").style.display = "block";
     } else {
-        document.getElementById("games")[0].style.display = "none";
-        document.getElementById("games")[1].style.display = "none";
+        document.getElementById("games_0").style.display = "none";
+        document.getElementById("games_1").style.display = "none";
     }
 }
 
