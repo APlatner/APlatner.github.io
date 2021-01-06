@@ -21,7 +21,9 @@ function aboutMe() {
 function games() {
     if (document.getElementById("games").style.display === "none") {
         document.getElementById("games").style.display = "block";
+        document.getElementById("games").style.display = "block";
     } else {
+        document.getElementById("games").style.display = "none";
         document.getElementById("games").style.display = "none";
     }
 }
