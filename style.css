@@ -3,22 +3,21 @@ body {
   font-size: 15px;
   background-color: #222222;
   color: #00aa00;
+  padding: 0px;
 }
 
-h1 {
-  border-style: dashed none dashed none;
+header {
+  font-size: 25px;
+  background-color: #303030;
+  border-style: line none line none;
   border-width: 1px;
   padding: 5px;
-  margin: 5px;
+  margin: 0px;
 }
 
 p {
   padding: 5px;
   margin: 5px;
-}
-
-a {
-  color: #00aa00;
 }
 
 a:hover {
