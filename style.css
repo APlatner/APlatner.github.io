@@ -1,9 +1,17 @@
+:root {
+  --mainfore-color: #00cccc;
+  --mainback-color: #203030;
+  --codefore-color: #ffffff;
+  --codeback-color: #202525;
+  --codeborder-color: #202828;
+  --ul-color: #203535;
+}
+
 body {
-  font-family: "Lucida Console", Courier, monospace;
+  font-family: 'Aldrich';
   font-size: 15px;
-  background-color: #222222;
-  color: #00aa00;
-  padding: 0px;
+  background-color: var(--mainback-color);
+  color: var(--mainfore-color);
 }
 
 header {
@@ -28,8 +36,8 @@ a:hover {
   width: max-content;
   font-size: 20px;
   padding: 5px;
-  background-color: #222222;
-  color: #00aa00;
+  background-color: var(--mainback-color);
+  color: var(--mainfore-color);
   border-style: none none none none;
   outline: none;
 }
@@ -48,4 +56,21 @@ a:hover {
 .format {
   padding: 5px;
   margin: 0px;
+}
+
+code {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 25px;
+  background-color: var(--codeback-color);
+  color: var(--codefore-color);
+  border-radius: 10%;
+  border-style: solid;
+  border-color: var(--codeborder-color);
+}
+
+ul {
+  background-color: var(--ul-code);
+  border-radius: 10%;
+  border-style: solid;
+  border-color: var(--codeborder-color);
 }
